@@ -1,4 +1,4 @@
-with open("text.txt" , "r", encoding="utf-8") as file:
-    d = file.read()
+with open("text.txt" , "r", encoding="utf-8") as file: #Открываем файл
+    d = file.read() #Читаем файл
     c = d.split()
-    print(len(c))
+    print(len(c))# Выводим кол-во слов
